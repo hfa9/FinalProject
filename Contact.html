@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="History.html">History</a></li>
+            <li><a href="Players.html">Players</a></li>
+            <li><a href="Schedule.html">Schedule</a></li>
+            <li><a href="News.html">News</a></li>
+            <li><a href="Merchandise.html">Merchandise</a></li>
+            <li><a href="Contact.html">Contact Page</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="contact-form">
+    <h2>Contact Us</h2>
+    <form action="submit_form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<footer>
+    <p>&copy; 2024 Hugo Alvarez. Class: IS 117. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
+<!--JavaScript for Menu For Mobile-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
+</body>
+</html>

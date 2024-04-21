@@ -1,0 +1,552 @@
+<!-- DEVELOPER: Hugo Alvarez, IS117-006, Spring 2024 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC Barcelona - Players</title>
+    <link rel="stylesheet" href="players.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png" alt="Barcelona logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="History.html">History</a></li>
+                    <li><a href="Players.html">Players</a></li>
+                    <li><a href="Schedule.html">Schedule</a></li>
+                    <li><a href="News.html">News</a></li>
+                    <li><a href="Merchandise.html">Merchandise</a></li>
+                    <li><a href="Contact.html">Contact Page</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="container">
+
+            <div class="player-stats">
+                <div class="player-card">
+                    <h3>KEY</h3>
+                    <p><span>POS:</span> Position</p>
+                    <p><span>GP:</span> Games Played</p>
+                    <p><span>GS:</span> Goals Scored</p>
+                    <p><span>CS:</span> Clean Sheets</p>
+                    <p><span>SV:</span> Saves</p>
+                    <p><span>GA:</span> Goals Against</p>
+                    <p><span>A:</span> Assists</p>
+                    <p><span>PAcc:</span> Pass Accuracy</p>
+                    <p><span>FC:</span> Fouls Committed</p>
+                    <p><span>FA:</span> Fouls Against</p>
+                    <p><span>YC:</span> Yellow Cards</p>
+                    <p><span>RC:</span> Red Cards</p>
+                </div>
+                
+                <div class="player-card">
+                    <h3>M. ter Stegen</h3>
+                    <p><span>POS:</span> GK</p>
+                    <p><span>GP:</span> 21</p>
+                    <p><span>GS:</span> 21</p>
+                    <p><span>CS:</span> 12</p>
+                    <p><span>SV:</span> 52</p>
+                    <p><span>GA:</span> 17</p>
+                    <p><span>A:</span> 0</p>
+                    <p><span>PAcc:</span> 88.2</p>
+                    <p><span>FC:</span> 0</p>
+                    <p><span>FA:</span> 1</p>
+                    <p><span>YC:</span> 3</p>
+                    <p><span>RC:</span> 0</p>
+                </div>
+                <div class="player-card">
+                    <h3>Iñaki Peña</h3>
+                    <p><span>POS:</span> GK</p>
+                    <p><span>GP:</span> 10</p>
+                    <p><span>GS:</span> 10</p>
+                    <p><span>CS:</span> 2</p>
+                    <p><span>SV:</span> 22</p>
+                    <p><span>GA:</span> 17</p>
+                    <p><span>A:</span> 0</p>
+                    <p><span>PAcc:</span> 84.9</p>
+                    <p><span>FC:</span> 0</p>
+                    <p><span>FA:</span> 1</p>
+                    <p><span>YC:</span> 0</p>
+                    <p><span>RC:</span> 0</p>
+                </div>
+                <div class="player-card">
+                    <h3>İ. Gündoğan</h3>
+                    <p><span>POS:</span> M</p>
+                    <p><span>GP:</span> 30</p>
+                    <p><span>GS:</span> 27</p>
+                    <p><span>G:</span> 5</p>
+                    <p><span>A:</span> 6</p>
+                    <p><span>SH:</span> 27</p>
+                    <p><span>SOT:</span> 15</p>
+                    <p><span>PAcc:</span> 89.5</p>
+                    <p><span>TklW:</span> 18</p>
+                    <p><span>INT:</span> 19</p>
+                    <p><span>FC:</span> 13</p>
+                    <p><span>FA:</span> 35</p>
+                    <p><span>YC:</span> 4</p>
+                    <p><span>RC:</span> 0</p>
+                </div>
+                <div class="player-card">
+                    <h3>Lamine Yamal</h3>
+                    <p><span>POS:</span> A</p>
+                    <p><span>GP:</span> 30</p>
+                    <p><span>GS:</span> 15</p>
+                    <p><span>G:</span> 4</p>
+                    <p><span>A:</span> 3</p>
+                    <p><span>SH:</span> 32</p>
+                    <p><span>SOT:</span> 15</p>
+                    <p><span>PAcc:</span> 83.2</p>
+                    <p><span>TklW:</span> 31</p>
+                    <p><span>INT:</span> 15</p>
+                    <p><span>FC:</span> 16</p>
+                    <p><span>FA:</span> 37</p>
+                    <p><span>YC:</span> 2</p>
+                    <p><span>RC:</span> 0</p>
+                </div>
+                <div class="player-card">
+                    <h3>J. Koundé</h3>
+                    <p><span>POS:</span> D</p>
+                    <p><span>GP:</span> 28</p>
+                    <p><span>GS:</span> 25</p>
+                    <p><span>G:</span> 1</p>
+                    <p><span>A:</span> 2</p>
+                    <p><span>SH:</span> 13</p>
+                    <p><span>SOT:</span> 6</p>
+                    <p><span>PAcc:</span> 90.9</p>
+                    <p><span>TklW:</span> 19</p>
+                    <p><span>INT:</span> 21</p>
+                    <p><span>FC:</span> 18</p>
+                    <p><span>FA:</span> 10</p>
+                    <p><span>YC:</span> 2</p>
+                    <p><span>RC:</span> 0</p>
+                </div>
+                
+                <div class="player-card">
+                    <h3>R. Lewandowski</h3>
+                    <p><span>POS:</span> A</p>
+                    <p><span>GP:</span> 28</p>
+                    <p><span>GS:</span> 25</p>
+                    <p><span>G:</span> 13</p>
+                    <p><span>A:</span> 8</p>
+                    <p><span>SH:</span> 56</p>
+                    <p><span>SOT:</span> 33</p>
+                    <p><span>PAcc:</span> 70.9</p>
+                    <p><span>TklW:</span> 5</p>
+                    <p><span>INT:</span> 7</p>
+                    <p><span>FC:</span> 19</p>
+                    <p><span>FA:</span> 49</p>
+                    <p><span>YC:</span> 5</p>
+                    <p><span>RC:</span> 0</p>
+                </div>
+                
+                <div class="player-card">
+                    <h3>Eric García</h3>
+                    <p><span>POS:</span> D</p>
+                    <p><span>GP:</span> 25</p>
+                    <p><span>GS:</span> 23</p>
+                    <p><span>G:</span> 2</p>
+                    <p><span>A:</span> 0</p>
+                    <p><span>SH:</span> 8</p>
+                    <p><span>SOT:</span> 3</p>
+                    <p><span>PAcc:</span> 90.3</p>
+                    <p><span>TklW:</span> 29</p>
+                    <p><span>INT:</span> 25</p>
+                    <p><span>FC:</span> 20</p>
+                    <p><span>FA:</span> 20</p>
+                    <p><span>YC:</span> 4</p>
+                    <p><span>RC:</span> 0</p>
+                </div>
+                
+                <div class="player-card">
+                    <h3>João Cancelo</h3>
+                    <p><span>POS:</span> D</p>
+                    <p><span>GP:</span> 25</p>
+                    <p><span>GS:</span> 23</p>
+                    <p><span>G:</span> 2</p>
+                    <p><span>A:</span> 3</p>
+                    <p><span>SH:</span> 14</p>
+                    <p><span>SOT:</span> 7</p>
+                    <p><span>PAcc:</span> 83.6</p>
+                    <p><span>TklW:</span> 35</p>
+                    <p><span>INT:</span> 20</p>
+                    <p><span>FC:</span> 29</p>
+                    <p><span>FA:</span> 23</p>
+                    <p><span>YC:</span> 5</p>
+                    <p><span>RC:</span> 0</p>
+                </div>
+                <div class="player-card">
+                    <h3>Fermín</h3>
+                    <p><span>POS:</span> M</p>
+                    <p><span>GP:</span> 24</p>
+                    <p><span>GS:</span> 9</p>
+                    <p><span>G:</span> 3</p>
+                    <p><span>A:</span> 0</p>
+                    <p><span>SH:</span> 31</p>
+                    <p><span>SOT:</span> 17</p>
+                    <p><span>PAcc:</span> 82.9</p>
+                    <p><span>TklW:</span> 17</p>
+                    <p><span>INT:</span> 2</p>
+                    <p><span>FC:</span> 29</p>
+                    <p><span>FA:</span> 13</p>
+                    <p><span>YC:</span> 2</p>
+                    <p><span>RC:</span> 0</p>
+                </div>
+                
+                <div class="player-card">
+                    <h3>Oriol Romeu</h3>
+                    <p><span>POS:</span> M</p>
+                    <p><span>GP:</span> 24</p>
+                    <p><span>GS:</span> 11</p>
+                    <p><span>G:</span> 0</p>
+                    <p><span>A:</span> 1</p>
+                    <p><span>SH:</span> 6</p>
+                    <p><span>SOT:</span> 2</p>
+                    <p><span>PAcc:</span> 89.3</p>
+                    <p><span>TklW:</span> 18</p>
+                    <p><span>INT:</span> 9</p>
+                    <p><span>FC:</span> 15</p>
+                    <p><span>FA:</span> 11</p>
+                    <p><span>YC:</span> 4</p>
+                    <p><span>RC:</span> 0</p>
+                </div>
+                
+                <div class="player-card">
+                    <h3>João Félix</h3>
+                    <p><span>POS:</span> A</p>
+                    <p><span>GP:</span> 24</p>
+                    <p><span>GS:</span> 18</p>
+                    <p><span>G:</span> 7</p>
+                    <p><span>A:</span> 3</p>
+                    <p><span>SH:</span> 39</p>
+                    <p><span>SOT:</span> 21</p>
+                    <p><span>PAcc:</span> 83.6</p>
+                    <p><span>TklW:</span> 14</p>
+                    <p><span>INT:</span> 9</p>
+                    <p><span>FC:</span> 17</p>
+                    <p><span>FA:</span> 49</p>
+                    <p><span>YC:</span> 3</p>
+                    <p><span>RC:</span> 0</p>
+                </div>
+                
+                <div class="player-card">
+                    <h3>Raphinha</h3>
+                    <p><span>POS:</span> A</p>
+                    <p><span>GP:</span> 23</p>
+                    <p><span>GS:</span> 13</p>
+                    <p><span>G:</span> 5</p>
+                    <p><span>A:</span> 7</p>
+                    <p><span>SH:</span> 38</p>
+                    <p><span>SOT:</span> 18</p>
+                    <p><span>PAcc:</span> 80.1</p>
+                    <p><span>TklW:</span> 7</p>
+                    <p><span>INT:</span> 10</p>
+                    <p><span>FC:</span> 14</p>
+                    <p><span>FA:</span> 22</p>
+                    <p><span>YC:</span> 2</p>
+                    <p><span>RC:</span> 1</p>
+                </div>
+                
+                <div class="player-card">
+                    <h3>Ferran Torres</h3>
+                    <p><span>POS:</span> A</p>
+                    <p><span>GP:</span> 23</p>
+                    <p><span>GS:</span> 11</p>
+                    <p><span>G:</span> 7</p>
+                    <p><span>A:</span> 2</p>
+                    <p><span>SH:</span> 23</p>
+                    <p><span>SOT:</span> 14</p>
+                    <p><span>PAcc:</span> 78.9</p>
+                    <p><span>TklW:</span> 6</p>
+                    <p><span>INT:</span> 5</p>
+                    <p><span>FC:</span> 7</p>
+                    <p><span>FA:</span> 11</p>
+                    <p><span>YC:</span> 2</p>
+                    <p><span>RC:</span> 0</p>
+                </div>
+                <div class="player-card">
+                    <h3>A. Christensen</h3>
+                    <p><span>POS:</span> D</p>
+                    <p><span>GP:</span> 23</p>
+                    <p><span>GS:</span> 22</p>
+                    <p><span>G:</span> 0</p>
+                    <p><span>A:</span> 2</p>
+                    <p><span>SH:</span> 4</p>
+                    <p><span>SOT:</span> 1</p>
+                    <p><span>PAcc:</span> 95.0</p>
+                    <p><span>TklW:</span> 10</p>
+                    <p><span>INT:</span> 17</p>
+                    <p><span>FC:</span> 18</p>
+                    <p><span>FA:</span> 6</p>
+                    <p><span>YC:</span> 4</p>
+                    <p><span>RC:</span> 0</p>
+                </div>
+                
+                <div class="player-card">
+                    <h3>A. Ezzalzouli</h3>
+                    <p><span>POS:</span> A</p>
+                    <p><span>GP:</span> 22</p>
+                    <p><span>GS:</span> 5</p>
+                    <p><span>G:</span> 1</p>
+                    <p><span>A:</span> 0</p>
+                    <p><span>SH:</span> 20</p>
+                    <p><span>SOT:</span> 5</p>
+                    <p><span>PAcc:</span> 73.5</p>
+                    <p><span>TklW:</span> 11</p>
+                    <p><span>INT:</span> 4</p>
+                    <p><span>FC:</span> 8</p>
+                    <p><span>FA:</span> 15</p>
+                    <p><span>YC:</span> 1</p>
+                    <p><span>RC:</span> 0</p>
+                </div>
+                
+                <div class="player-card">
+                    <h3>R. Araujo</h3>
+                    <p><span>POS:</span> D</p>
+                    <p><span>GP:</span> 21</p>
+                    <p><span>GS:</span> 18</p>
+                    <p><span>G:</span> 1</p>
+                    <p><span>A:</span> 0</p>
+                    <p><span>SH:</span> 12</p>
+                    <p><span>SOT:</span> 6</p>
+                    <p><span>PAcc:</span> 89.1</p>
+                    <p><span>TklW:</span> 19</p>
+                    <p><span>INT:</span> 9</p>
+                    <p><span>FC:</span> 24</p>
+                    <p><span>FA:</span> 9</p>
+                    <p><span>YC:</span> 5</p>
+                    <p><span>RC:</span> 0</p>
+                </div>
+                
+                <div class="player-card">
+                    <h3>F. de Jong</h3>
+                    <p><span>POS:</span> M</p>
+                    <p><span>GP:</span> 19</p>
+                    <p><span>GS:</span> 19</p>
+                    <p><span>G:</span> 2</p>
+                    <p><span>A:</span> 0</p>
+                    <p><span>SH:</span> 5</p>
+                    <p><span>SOT:</span> 4</p>
+                    <p><span>PAcc:</span> 93.0</p>
+                    <p><span>TklW:</span> 26</p>
+                    <p><span>INT:</span> 13</p>
+                    <p><span>FC:</span> 18</p>
+                    <p><span>FA:</span> 22</p>
+                    <p><span>YC:</span> 7</p>
+                    <p><span>RC:</span> 0</p>
+                </div>
+                
+                <div class="player-card">
+                    <h3>Alejandro Balde</h3>
+                    <p><span>POS:</span> D</p>
+                    <p><span>GP:</span> 18</p>
+                    <p><span>GS:</span> 15</p>
+                    <p><span>G:</span> 0</p>
+                    <p><span>A:</span> 1</p>
+                    <p><span>SH:</span> 2</p>
+                    <p><span>SOT:</span> 1</p>
+                    <p><span>PAcc:</span> 88.5</p>
+                    <p><span>TklW:</span> 11</p>
+                    <p><span>INT:</span> 5</p>
+                    <p><span>FC:</span> 9</p>
+                    <p><span>FA:</span> 18</p>
+                    <p><span>YC:</span> 1</p>
+                    <p><span>RC:</span> 0</p>
+                </div>
+                <div class="player-card">
+                    <h3>Pedri</h3>
+                    <p><span>POS:</span> M</p>
+                    <p><span>GP:</span> 17</p>
+                    <p><span>GS:</span> 13</p>
+                    <p><span>G:</span> 2</p>
+                    <p><span>A:</span> 2</p>
+                    <p><span>SH:</span> 7</p>
+                    <p><span>SOT:</span> 4</p>
+                    <p><span>PAcc:</span> 86.6</p>
+                    <p><span>TklW:</span> 18</p>
+                    <p><span>INT:</span> 10</p>
+                    <p><span>FC:</span> 9</p>
+                    <p><span>FA:</span> 21</p>
+                    <p><span>YC:</span> 3</p>
+                    <p><span>RC:</span> 0</p>
+                </div>
+                
+                <div class="player-card">
+                    <h3>Iñigo Martínez</h3>
+                    <p><span>POS:</span> D</p>
+                    <p><span>GP:</span> 15</p>
+                    <p><span>GS:</span> 9</p>
+                    <p><span>G:</span> 0</p>
+                    <p><span>A:</span> 0</p>
+                    <p><span>SH:</span> 3</p>
+                    <p><span>SOT:</span> 0</p>
+                    <p><span>PAcc:</span> 88.5</p>
+                    <p><span>TklW:</span> 6</p>
+                    <p><span>INT:</span> 7</p>
+                    <p><span>FC:</span> 9</p>
+                    <p><span>FA:</span> 9</p>
+                    <p><span>YC:</span> 5</p>
+                    <p><span>RC:</span> 0</p>
+                </div>
+                
+                <div class="player-card">
+                    <h3>Pau Cubarsí</h3>
+                    <p><span>POS:</span> D</p>
+                    <p><span>GP:</span> 12</p>
+                    <p><span>GS:</span> 11</p>
+                    <p><span>G:</span> 0</p>
+                    <p><span>A:</span> 0</p>
+                    <p><span>SH:</span> 2</p>
+                    <p><span>SOT:</span> 0</p>
+                    <p><span>PAcc:</span> 91.4</p>
+                    <p><span>TklW:</span> 12</p>
+                    <p><span>INT:</span> 8</p>
+                    <p><span>FC:</span> 10</p>
+                    <p><span>FA:</span> 1</p>
+                    <p><span>YC:</span> 1</p>
+                    <p><span>RC:</span> 0</p>
+                </div>
+                
+                <div class="player-card">
+                    <h3>Gavi</h3>
+                    <p><span>POS:</span> M</p>
+                    <p><span>GP:</span> 12</p>
+                    <p><span>GS:</span> 10</p>
+                    <p><span>G:</span> 1</p>
+                    <p><span>A:</span> 1</p>
+                    <p><span>SH:</span> 8</p>
+                    <p><span>SOT:</span> 4</p>
+                    <p><span>PAcc:</span> 91.4</p>
+                    <p><span>TklW:</span> 21</p>
+                    <p><span>INT:</span> 8</p>
+                    <p><span>FC:</span> 31</p>
+                    <p><span>FA:</span> 23</p>
+                    <p><span>YC:</span> 5</p>
+                    <p><span>RC:</span> 0</p>
+                </div>
+                
+                <div class="player-card">
+                    <h3>Vitor Roque</h3>
+                    <p><span>POS:</span> A</p>
+                    <p><span>GP:</span> 11</p>
+                    <p><span>GS:</span> 2</p>
+                    <p><span>G:</span> 2</p>
+                    <p><span>A:</span> 0</p>
+                    <p><span>SH:</span> 9</p>
+                    <p><span>SOT:</span> 5</p>
+                    <p><span>PAcc:</span> 73.1</p>
+                    <p><span>TklW:</span> 1</p>
+                    <p><span>INT:</span> 0</p>
+                    <p><span>FC:</span> 13</p>
+                    <p><span>FA:</span> 9</p>
+                    <p><span>YC:</span> 1</p>
+                    <p><span>RC:</span> 1</p>
+                </div>
+                
+                <div class="player-card">
+                    <h3>Sergi Roberto</h3>
+                    <p><span>POS:</span> D</p>
+                    <p><span>GP:</span> 9</p>
+                    <p><span>GS:</span> 7</p>
+                    <p><span>G:</span> 3</p>
+                    <p><span>A:</span> 1</p>
+                    <p><span>SH:</span> 7</p>
+                    <p><span>SOT:</span> 4</p>
+                    <p><span>PAcc:</span> 91.2</p>
+                    <p><span>TklW:</span> 6</p>
+                    <p><span>INT:</span> 5</p>
+                    <p><span>FC:</span> 6</p>
+                    <p><span>FA:</span> 5</p>
+                    <p><span>YC:</span> 3</p>
+                    <p><span>RC:</span> 0</p>
+                </div>
+                <div class="player-card">
+                    <h3>Marcos Alonso</h3>
+                    <p><span>POS:</span> D</p>
+                    <p><span>GP:</span> 5</p>
+                    <p><span>GS:</span> 3</p>
+                    <p><span>G:</span> 0</p>
+                    <p><span>A:</span> 0</p>
+                    <p><span>SH:</span> 3</p>
+                    <p><span>SOT:</span> 2</p>
+                    <p><span>PAcc:</span> 89.0%</p>
+                    <p><span>TklW:</span> 3</p>
+                    <p><span>INT:</span> 4</p>
+                    <p><span>FC:</span> 6</p>
+                    <p><span>FA:</span> 6</p>
+                    <p><span>YC:</span> 0</p>
+                    <p><span>RC:</span> 0</p>
+                </div>
+                
+                
+                
+                
+                            
+
+        </div>   
+    </section>
+
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-column">
+            <a href="HUGO.html"><img src="Images/logo.png" alt="Barcelona logo" class="footer-logo"></a>
+            <p>&copy; 2024 Hugo Alvarez. Class: IS 117. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Sitemap</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Contact Information</h3>
+            <p>123 Main Street, Barcelona</p>
+            <p>Email: Hugo@fcbarcelona.com</p>
+            <p>Phone: +1 (862)888-0898</p>
+        </div>
+        <div class="footer-column">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-column">
+            <h3>Email Sign-up</h3>
+            <form action="#" method="post">
+                <input type="email" name="email" placeholder="Your email">
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+        <div class="footer-column">
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="History.html">History</a></li>
+                <li><a href="Players.html">Players</a></li>
+                <li><a href="Schedule.html">Schedule</a></li>
+                <li><a href="News.html">News</a></li>
+                <li><a href="Merchandise.html">Merchandise</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<!--JavaScript for Menu For Mobile-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
+</body>
+</html>

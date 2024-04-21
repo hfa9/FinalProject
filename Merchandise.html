@@ -1,0 +1,131 @@
+<!-- DEVELOPER: Hugo Alvarez, IS117-006, Spring 2024 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC Barcelona</title>
+    <link rel="stylesheet" href="merchandise.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png" alt="Barcelona logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="History.html">History</a></li>
+                    <li><a href="Players.html">Players</a></li>
+                    <li><a href="Schedule.html">Schedule</a></li>
+                    <li><a href="News.html">News</a></li>
+                    <li><a href="Merchandise.html">Merchandise</a></li>
+                    <li><a href="Contact.html">Contact Page</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="bio-container">
+            <div class="player">
+                <img src="Images/Shirt1.webp" alt="Merch1">
+                <h2>UCL FC Barcelona home shirt 23/24</h2>
+                <p>$106.58</p>
+                <a href="https://store.fcbarcelona.com/products/fc-barcelona-home-shirt-23-24?competition=ucl" target="_blank">Shop Now</a>
+            </div>
+            <div class="player">
+                <img src="Images/Shirt2.webp" alt="Merch2">
+                <h2>UCL FC Barcelona away shirt 23/24</h2>
+                <p>$106.58</p>
+                <a href="https://store.fcbarcelona.com/products/fc-barcelona-away-shirt-23-24?competition=ucl" target="_blank">Shop Now</a>
+            </div>
+            <div class="player">
+                <img src="Images/Shirt3.webp" alt="Merch3">
+                <h2>UCL FC Barcelona home shirt 23/24 - Junior</h2>
+                <p>$95.92</p>
+                <a href="https://store.fcbarcelona.com/products/fc-barcelona-home-shirt-23-24-junior?competition=ucl" target="_blank">Shop Now</a>
+            </div>
+            <div class="player">
+                <img src="Images/shirt4.webp" alt="Merch4">
+                <h2>UCL FC Barcelona third shirt 23/24</h2>
+                <p>$106.58</p>
+                <a href="https://store.fcbarcelona.com/products/fc-barcelona-third-shirt-23-24?competition=ucl" target="_blank">Shop Now</a>
+            </div>
+            <div class="player">
+                <img src="Images/Shirt5.webp" alt="Merch5">
+                <h2>FC Barcelona third Kit 23/24 – Younger Kids</h2>
+                <p>$74.60</p>
+                <a href="https://store.fcbarcelona.com/products/fc-barcelona-third-kit-23-24-little-kids" target="_blank">Shop Now</a>
+            </div>
+            <div class="player">
+                <img src="Images/Shirt6.webp" alt="Merch6">
+                <h2>Tracksuit FC Barcelona 23/24</h2>
+                <p>$149.21</p>
+                <a href="https://store.fcbarcelona.com/products/fcb-m-nk-df-strk-hd-trk-suit-k" target="_blank">Shop Now</a>
+            </div>
+        </div> 
+        <br><br>  
+    </section>
+
+    <!-- Merchandise Section -->
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-column">
+            <a href="HUGO.html"><img src="Images/logo.png" alt="Barcelona logo" class="footer-logo"></a>
+            <p>&copy; 2024 Hugo Alvarez. Class: IS 117. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Sitemap</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Contact Information</h3>
+            <p>123 Main Street, Barcelona</p>
+            <p>Email: Hugo@fcbarcelona.com</p>
+            <p>Phone: +1 (862)888-0898</p>
+        </div>
+        <div class="footer-column">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-column">
+            <h3>Email Sign-up</h3>
+            <form action="#" method="post">
+                <input type="email" name="email" placeholder="Your email">
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+        <div class="footer-column">
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="History.html">History</a></li>
+                <li><a href="Players.html">Players</a></li>
+                <li><a href="Schedule.html">Schedule</a></li>
+                <li><a href="News.html">News</a></li>
+                <li><a href="Merchandise.html">Merchandise</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<!--JavaScript for Menu For Mobile-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
+</body>
+</html>

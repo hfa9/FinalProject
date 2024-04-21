@@ -1,0 +1,146 @@
+<!-- DEVELOPER: Hugo Alvarez, IS117-006, Spring 2024 -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>FC Barcelona</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="htps://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+   <body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png" alt="Barcelona logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="History.html">History</a></li>
+                        <li><a href="Players.html">Players</a></li>
+                        <li><a href="Schedule.html">Schedule</a></li>
+                        <li><a href="News.html">News</a></li>
+                        <li><a href="Merchandise.html">Merchandise</a></li>
+                        <li><a href="Contact.html">Contact Page</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+    <div class="text-box">
+        <h1>F.C. Barcelona</h1>
+        <p>Mes Que Un Club </p>
+        <a href="History.html" class="home-button"> Click Here to Learn More </a>
+    </div>    
+    </section>
+<!--Course-->
+<section class="quotes">
+    <h1>Quotes</h1>
+    <p>Home of the "Culés"</p>
+
+    <div class="row">
+        <div class="quotes-col">
+            <h3>"Without me, Barcelona would be the same, without Barcelona I would be nothing."</h3>
+            <p>- Lionel Messi</p>
+        </div>
+        <div class="quotes-col">
+            <h3>"I want to say one more thing: I will always hold the love of Barcelona in my heart."</h3>
+            <p>- Andrés Iniesta</p>
+        </div>
+        <div class="quotes-col">
+            <h3>"I can't ever imagine not playing for Barcelona, let alone not playing soccer for a career. I don't ever want to play anywhere else."</h3>
+            <p>- Xavi Hernandez</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!--Kit Photo-->
+
+<section class="homekit">
+    <h1>2023/2024 F.C Barcelona Kits</h1>
+    <p>These are the three kits for the 23/24 Season</p>
+
+    <div class="row">
+        <div class="homekit-col">
+            <img src="Images/24100CA_1_d56d22d5-50fa-41e2-b09b-5aebe501baa1.webp" alt="Homekit">
+            <div class="home1">
+                <h3>HOME</h3>
+            </div>
+        </div>
+        <div class="homekit-col">
+            <img src="Images/away.webp" alt="AwayKit">
+            <div class="home1">
+                <h3>Away</h3>
+            </div>
+        </div>
+        <div class="homekit-col">
+            <img src="Images/third.webp" alt="Alternativekit">
+            <div class="home1">
+                <h3>Alternative</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer -->
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-column">
+            <a href="HUGO.html"><img src="Images/logo.png" alt="Barcelona logo" class="footer-logo"></a>
+            <p>&copy; 2024 Hugo Alvarez. Class: IS 117. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Sitemap</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Contact Information</h3>
+            <p>123 Main Street, Barcelona</p>
+            <p>Email: Hugo@fcbarcelona.com</p>
+            <p>Phone: +1 (862)888-0898</p>
+        </div>
+        <div class="footer-column">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-column">
+            <h3>Email Sign-up</h3>
+            <form action="#" method="post">
+                <input type="email" name="email" placeholder="Your email">
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+        <div class="footer-column">
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="History.html">History</a></li>
+                <li><a href="Players.html">Players</a></li>
+                <li><a href="Schedule.html">Schedule</a></li>
+                <li><a href="News.html">News</a></li>
+                <li><a href="Merchandise.html">Merchandise</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+<!--JavaScript for Menu For Mobile-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+   </body>
+</html>
